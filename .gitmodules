@@ -1,0 +1,39 @@
+[submodule "api-dolomite"]
+	path = api-dolomite
+	url = git@github.com:datr-tech/api-dolomite.git
+[submodule "db-entity"]
+	path = db-entity
+	url = git@github.com:datr-tech/db-entity.git
+[submodule "api-entity"]
+	path = api-entity
+	url = git@github.com:datr-tech/api-entity.git
+[submodule "api-freight"]
+	path = api-freight
+	url = git@github.com:datr-tech/api-freight.git
+[submodule "api-granul8"]
+	path = api-granul8
+	url = git@github.com:datr-tech/api-granul8.git
+[submodule "api-persona"]
+	path = api-persona
+	url = git@github.com:datr-tech/api-persona.git
+[submodule "api-proc"]
+	path = api-proc
+	url = https://github.com/datr-tech/api-proc
+[submodule "db-dolomite"]
+	path = db-dolomite
+	url = git@github.com:datr-tech/db-dolomite.git
+[submodule "db-freight"]
+	path = db-freight
+	url = git@github.com:datr-tech/db-freight.git
+[submodule "db-granul8"]
+	path = db-granul8
+	url = git@github.com:datr-tech/db-granul8.git
+[submodule "db-persona"]
+	path = db-persona
+	url = git@github.com:datr-tech/db-persona.git
+[submodule "db-proc"]
+	path = db-proc
+	url = https://github.com/datr-tech/db-proc
+[submodule "web-freight"]
+	path = web-freight
+	url = git@github.com:datr-tech/web-freight.git
