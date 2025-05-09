@@ -37,3 +37,111 @@
 [submodule "web-freight"]
 	path = web-freight
 	url = git@github.com:datr-tech/web-freight.git
+[submodule "exim-mta"]
+	path = exim-mta
+	url = git@github.com:datr-tech/exim-mta.git
+[submodule "datr-tech-web"]
+	path = datr-tech-web
+	url = git@github.com:datr-tech/datr-tech-web.git
+[submodule "cargo-router-validation-schemas"]
+	path = cargo-router-validation-schemas
+	url = git@github.com:datr-tech/cargo-router-validation-schemas.git
+[submodule "cargo-router-validation-schemas-dolomite"]
+	path = cargo-router-validation-schemas-dolomite
+	url = git@github.com:datr-tech/cargo-router-validation-schemas-dolomite.git
+[submodule "cargo-router-validation-schemas-entity"]
+	path = cargo-router-validation-schemas-entity
+	url = git@github.com:datr-tech/cargo-router-validation-schemas-entity.git
+[submodule "cargo-router-validation-schemas-freight"]
+	path = cargo-router-validation-schemas-freight
+	url = git@github.com:datr-tech/cargo-router-validation-schemas-freight.git
+[submodule "cargo-router-validation-schemas-granul8"]
+	path = cargo-router-validation-schemas-granul8
+	url = git@github.com:datr-tech/cargo-router-validation-schemas-granul8.git
+[submodule "cargo-router-validation-schemas-persona"]
+	path = cargo-router-validation-schemas-persona
+	url = git@github.com:datr-tech/cargo-router-validation-schemas-persona.git
+[submodule "cargo-router-validation-schemas-proc"]
+	path = cargo-router-validation-schemas-proc
+	url = git@github.com:datr-tech/cargo-router-validation-schemas-proc.git
+[submodule "leith-common"]
+	path = leith-common
+	url = git@github.com:datr-tech/leith-common.git
+[submodule "leith-common-logger"]
+	path = leith-common-logger
+	url = git@github.com:datr-tech/leith-common-logger.git
+[submodule "leith-common-mongodb-connector"]
+	path = leith-common-mongodb-connector
+	url = git@github.com:datr-tech/leith-common-mongodb-connector.git
+[submodule "leith-common-seeders"]
+	path = leith-common-seeders
+	url = git@github.com:datr-tech/leith-common-seeders.git
+[submodule "leith-common-services"]
+	path = leith-common-services
+	url = git@github.com:datr-tech/leith-common-services.git
+[submodule "leith-config-api-ports"]
+	path = leith-config-api-ports
+	url = git@github.com:datr-tech/leith-config-api-ports.git
+[submodule "leith-config-api-router-options"]
+	path = leith-config-api-router-options
+	url = git@github.com:datr-tech/leith-config-api-router-options.git
+[submodule "leith-manual-pkg-integration-test"]
+	path = leith-manual-pkg-integration-test
+	url = git@github.com:datr-tech/leith-manual-pkg-integration-test.git
+[submodule "marble-api-controller-generator"]
+	path = marble-api-controller-generator
+	url = git@github.com:datr-tech/marble-api-controller-generator.git
+[submodule "marble-api-model-generator"]
+	path = marble-api-model-generator
+	url = git@github.com:datr-tech/marble-api-model-generator.git
+[submodule "marble-api-model-interface-generator"]
+	path = marble-api-model-interface-generator
+	url = git@github.com:datr-tech/marble-api-model-interface-generator.git
+[submodule "marble-api-model-validator-unit-test-generator"]
+	path = marble-api-model-validator-unit-test-generator
+	url = git@github.com:datr-tech/marble-api-model-validator-unit-test-generator.git
+[submodule "marble-api-router-generator"]
+	path = marble-api-router-generator
+	url = git@github.com:datr-tech/marble-api-router-generator.git
+[submodule "marble-api-router-validation-schema-generator"]
+	path = marble-api-router-validation-schema-generator
+	url = git@github.com:datr-tech/marble-api-router-validation-schema-generator.git
+[submodule "marble-generator-file-system-components"]
+	path = marble-generator-file-system-components
+	url = git@github.com:datr-tech/marble-generator-file-system-components.git
+[submodule "marble-openapi-spec-generator"]
+	path = marble-openapi-spec-generator
+	url = git@github.com:datr-tech/marble-openapi-spec-generator.git
+[submodule "marble-readme-generator"]
+	path = marble-readme-generator
+	url = git@github.com:datr-tech/marble-readme-generator.git
+[submodule "marble-transformer-core"]
+	path = marble-transformer-core
+	url = git@github.com:datr-tech/marble-transformer-core.git
+[submodule "marble-transformer-router-validation-schema-to-router-code"]
+	path = marble-transformer-router-validation-schema-to-router-code
+	url = git@github.com:datr-tech/marble-transformer-router-validation-schema-to-router-code.git
+[submodule "parcel-model-schemas"]
+	path = parcel-model-schemas
+	url = git@github.com:datr-tech/parcel-model-schemas.git
+[submodule "parcel-model-schemas-common-fields"]
+	path = parcel-model-schemas-common-fields
+	url = git@github.com:datr-tech/parcel-model-schemas-common-fields.git
+[submodule "parcel-model-schemas-dolomite"]
+	path = parcel-model-schemas-dolomite
+	url = git@github.com:datr-tech/parcel-model-schemas-dolomite.git
+[submodule "parcel-model-schemas-entity"]
+	path = parcel-model-schemas-entity
+	url = git@github.com:datr-tech/parcel-model-schemas-entity.git
+[submodule "parcel-model-schemas-freight"]
+	path = parcel-model-schemas-freight
+	url = git@github.com:datr-tech/parcel-model-schemas-freight.git
+[submodule "parcel-model-schemas-granul8"]
+	path = parcel-model-schemas-granul8
+	url = git@github.com:datr-tech/parcel-model-schemas-granul8.git
+[submodule "parcel-model-schemas-persona"]
+	path = parcel-model-schemas-persona
+	url = git@github.com:datr-tech/parcel-model-schemas-persona.git
+[submodule "parcel-model-schemas-proc"]
+	path = parcel-model-schemas-proc
+	url = git@github.com:datr-tech/parcel-model-schemas-proc.git
