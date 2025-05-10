@@ -1,12 +1,12 @@
 {
-  "name": "@datr.tech/framework",
-  "description": "Parent package for datr.tech repos",
+  "name": "@datr.tech/datr-tech-framework",
+  "description": "Parent framework for all datr.tech repos",
   "version": "0.3.0",
   "private": false,
-  "homepage": "https://github.com/datr.tech/framework",
+  "homepage": "https://github.com/datr.tech/datr-tech-framework",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/datr.tech/framework.git"
+    "url": "git+https://github.com/datr.tech/datr-tech-framework.git"
   },
   "keywords": [
     "@datr.tech",

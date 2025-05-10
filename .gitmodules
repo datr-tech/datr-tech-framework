@@ -145,3 +145,9 @@
 [submodule "parcel-model-schemas-proc"]
 	path = parcel-model-schemas-proc
 	url = git@github.com:datr-tech/parcel-model-schemas-proc.git
+[submodule "exim-db"]
+	path = exim-db
+	url = git@github.com:datr-tech/exim-db.git
+[submodule "exim-imap"]
+	path = exim-imap
+	url = git@github.com:datr-tech/exim-imap.git

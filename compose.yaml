@@ -1,0 +1,69 @@
+
+include:
+  - path: "./admin-db/compose.yaml"
+  - path: "./dolomite-db/compose.yaml"
+  - path: "./entity-db/compose.yaml"
+  - path: "./exim-db/compose.yaml"
+  - path: "./freight-db/compose.yaml"
+  - path: "./granul8-db/compose.yaml"
+  - path: "./persona-db/compose.yaml"
+
+services:
+  admin-api:
+    extends:
+      file: ./admin-api/compose.yaml
+      service: admin-api
+    depends_on:
+      admin-db:
+        condition: service_healthy
+  dolomite-api:
+    extends:
+      file: ./dolomite-api/compose.yaml
+      service: dolomite-api
+    depends_on:
+      dolomite-db:
+        condition: service_healthy
+  entity-api:
+    extends:
+      file: ./entity-api/compose.yaml
+      service: entity-api
+    depends_on:
+      entity-db:
+        condition: service_healthy
+  freight-api:
+    extends:
+      file: ./freight-api/compose.yaml
+      service: freight-api
+    depends_on:
+      freight-db:
+        condition: service_healthy
+  granul8-api:
+    extends:
+      file: ./granul8-api/compose.yaml
+      service: granul8-api
+    depends_on:
+      granul8-db:
+        condition: service_healthy
+  persona-api:
+    extends:
+      file: ./persona-api/compose.yaml
+      service: persona-api
+    depends_on:
+      persona-db:
+        condition: service_healthy
+  exim-imap:
+    extends:
+      file: ./exim-imap/compose.yaml
+      service: exim-imap
+    depends_on:
+      exim-db:
+        condition: service_healthy
+  exim-mta:
+    extends:
+      file: ./exim-mta/compose.yaml
+      service: exim-mta
+    depends_on:
+      exim-db:
+        condition: service_healthy
+      exim-imap:
+        condition: service_healthy
